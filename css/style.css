@@ -1,0 +1,40 @@
+* {
+    font-family: Anonymous, monospace
+}
+main {
+    margin: 0 auto;
+    width: 80%;
+    line-height: 2;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.hello {
+    font-size: 45px;
+    font-family: Roboto, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #bde236;
+    font-size: 22px;
+}
+.anchor_scale {
+    font-size: 24px;
+}
+a:hover {
+    cursor: pointer;
+    color: #333;
+    transition: .3s linear;
+}
+.text {
+    margin-top: 20px;
+}
+@media screen and (min-width: 0px) and (max-width: 561px) {
+    main {
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 13px;
+    }
+    .hello {
+        font-size: 30px;
+    }
+}
